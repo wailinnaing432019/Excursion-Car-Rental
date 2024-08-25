@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\C # Project\\Excursion Car Rental\\",
+  "WorkspaceRootPath": "D:\\Excursion-Car-Rental\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|c:\\c # project\\excursion car rental\\dashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|solutionrelative:dashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -57,6 +58,58 @@
     {
       "AbsoluteMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|C:\\C # Project\\Excursion Car Rental\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|solutionrelative:dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|d:\\excursion-car-rental\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|D:\\Excursion-Car-Rental\\dashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|solutionrelative:dashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|D:\\Excursion-Car-Rental\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|D:\\Excursion-Car-Rental\\addcarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|solutionrelative:addcarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|D:\\Excursion-Car-Rental\\addcarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|solutionrelative:addcarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|D:\\Excursion-Car-Rental\\editcarinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|solutionrelative:editcarinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|D:\\Excursion-Car-Rental\\editcarinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|solutionrelative:editcarinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|D:\\Excursion-Car-Rental\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|D:\\Excursion-Car-Rental\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|D:\\Excursion-Car-Rental\\splash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|solutionrelative:splash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|D:\\Excursion-Car-Rental\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|solutionrelative:dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|D:\\Excursion-Car-Rental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|D:\\Excursion-Car-Rental\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84743FC6-0E19-49A0-A462-F9FA95EA9967}|Excursion Car Rental.csproj|solutionrelative:login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 283ef7b0c65ed5168e4be75ba5d623778ea2f702
     }
   ],
   "DocumentGroupContainers": [
@@ -66,6 +119,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 13,
           "Children": [
             {
@@ -219,20 +273,181 @@
               "RelativeToolTip": "Login.cs",
               "ViewState": "AQIAACYAAAAAAAAAAAAhwEEAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+=======
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "D:\\Excursion-Car-Rental\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "D:\\Excursion-Car-Rental\\Dashboard.cs [Design]",
+              "RelativeToolTip": "Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T15:50:39.471Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "D:\\Excursion-Car-Rental\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "D:\\Excursion-Car-Rental\\Dashboard.cs",
+              "RelativeToolTip": "Dashboard.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAYwDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T13:48:04.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditCarInfo.cs [Design]",
+              "DocumentMoniker": "D:\\Excursion-Car-Rental\\EditCarInfo.cs",
+              "RelativeDocumentMoniker": "EditCarInfo.cs",
+              "ToolTip": "D:\\Excursion-Car-Rental\\EditCarInfo.cs [Design]",
+              "RelativeToolTip": "EditCarInfo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T14:03:49.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditCarInfo.cs",
+              "DocumentMoniker": "D:\\Excursion-Car-Rental\\EditCarInfo.cs",
+              "RelativeDocumentMoniker": "EditCarInfo.cs",
+              "ToolTip": "D:\\Excursion-Car-Rental\\EditCarInfo.cs",
+              "RelativeToolTip": "EditCarInfo.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFQAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T16:44:26.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddCarForm.cs [Design]",
+              "DocumentMoniker": "D:\\Excursion-Car-Rental\\AddCarForm.cs",
+              "RelativeDocumentMoniker": "AddCarForm.cs",
+              "ToolTip": "D:\\Excursion-Car-Rental\\AddCarForm.cs [Design]",
+              "RelativeToolTip": "AddCarForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T14:44:03.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\Excursion-Car-Rental\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "D:\\Excursion-Car-Rental\\Login.cs",
+              "RelativeToolTip": "Login.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwDMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+>>>>>>> 283ef7b0c65ed5168e4be75ba5d623778ea2f702
               "WhenOpened": "2024-08-20T17:41:11.199Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Dashboard.Designer.cs",
-              "DocumentMoniker": "C:\\C # Project\\Excursion Car Rental\\Dashboard.Designer.cs",
+              "DocumentMoniker": "D:\\Excursion-Car-Rental\\Dashboard.Designer.cs",
               "RelativeDocumentMoniker": "Dashboard.Designer.cs",
-              "ToolTip": "C:\\C # Project\\Excursion Car Rental\\Dashboard.Designer.cs",
+              "ToolTip": "D:\\Excursion-Car-Rental\\Dashboard.Designer.cs",
               "RelativeToolTip": "Dashboard.Designer.cs",
+<<<<<<< HEAD
               "ViewState": "AQIAAIkAAAAAAAAAAAAhwJYAAAAKAAAA",
+=======
+              "ViewState": "AQIAAEMAAAAAAAAAAAAMwFIAAABiAAAA",
+>>>>>>> 283ef7b0c65ed5168e4be75ba5d623778ea2f702
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T17:47:48.607Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddCarForm.cs",
+              "DocumentMoniker": "D:\\Excursion-Car-Rental\\AddCarForm.cs",
+              "RelativeDocumentMoniker": "AddCarForm.cs",
+              "ToolTip": "D:\\Excursion-Car-Rental\\AddCarForm.cs",
+              "RelativeToolTip": "AddCarForm.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAAGkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T15:56:42.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\Excursion-Car-Rental\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "D:\\Excursion-Car-Rental\\Login.cs [Design]",
+              "RelativeToolTip": "Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T12:13:48.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Splash.cs [Design]",
+              "DocumentMoniker": "D:\\Excursion-Car-Rental\\Splash.cs",
+              "RelativeDocumentMoniker": "Splash.cs",
+              "ToolTip": "D:\\Excursion-Car-Rental\\Splash.cs [Design]",
+              "RelativeToolTip": "Splash.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T16:34:52.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Excursion-Car-Rental\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Excursion-Car-Rental\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswBUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T15:50:37.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "D:\\Excursion-Car-Rental\\DBConnection.cs",
+              "RelativeDocumentMoniker": "DBConnection.cs",
+              "ToolTip": "D:\\Excursion-Car-Rental\\DBConnection.cs",
+              "RelativeToolTip": "DBConnection.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T18:02:23.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "D:\\Excursion-Car-Rental\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "Login.Designer.cs",
+              "ToolTip": "D:\\Excursion-Car-Rental\\Login.Designer.cs",
+              "RelativeToolTip": "Login.Designer.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAIAwwIIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T18:11:06.341Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             }
           ]
         }

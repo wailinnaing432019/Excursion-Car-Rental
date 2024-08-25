@@ -18,7 +18,7 @@ namespace Excursion_Car_Rental
             InitializeComponent();
         }
 
-        DBConnection conn=new DBConnection();
+        DBConnection conn = new DBConnection();
         
         
         private void loginBtn_Click(object sender, EventArgs e)
