@@ -26,7 +26,7 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
+       /* private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -58,17 +58,17 @@
             this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
             this.totalAvailableCarForDashboard = new MaterialSkin.Controls.MaterialLabel();
-            this.label3 = new MaterialSkin.Controls.MaterialLabel();
+           // this.label3 = new MaterialSkin.Controls.MaterialLabel();
             this.totalCarForDashboard = new MaterialSkin.Controls.MaterialLabel();
             this.materialCard2 = new MaterialSkin.Controls.MaterialCard();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.currenOordersForDashboard = new MaterialSkin.Controls.MaterialLabel();
-            this.label2 = new MaterialSkin.Controls.MaterialLabel();
+           // this.label2 = new MaterialSkin.Controls.MaterialLabel();
             this.materialCard1 = new MaterialSkin.Controls.MaterialCard();
             this.revenueForDashboard = new MaterialSkin.Controls.MaterialLabel();
-            this.label1 = new MaterialSkin.Controls.MaterialLabel();
+           // this.label1 = new MaterialSkin.Controls.MaterialLabel();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
             this.updateInfoBtn = new Guna.UI.WinForms.GunaButton();
@@ -88,11 +88,11 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.carBrandTextBox = new MaterialSkin.Controls.MaterialMaskedTextBox();
-            this.label3 = new System.Windows.Forms.Label();
+           // this.label3 = new System.Windows.Forms.Label();
             this.carNumberTextBox = new MaterialSkin.Controls.MaterialMaskedTextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.categoryDataGridView = new System.Windows.Forms.DataGridView();
-            this.label2 = new System.Windows.Forms.Label();
+           // this.label2 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.labelForSearchTrip = new MaterialSkin.Controls.MaterialLabel();
             this.txt_search_trip = new MaterialSkin.Controls.MaterialTextBox2();
@@ -121,13 +121,12 @@
             this.dataGridView_CarList = new System.Windows.Forms.DataGridView();
             this.noColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
-            this.label1 = new System.Windows.Forms.Label();
+          //  this.label1 = new System.Windows.Forms.Label();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.materialTabControl1.SuspendLayout();
-<<<<<<< HEAD
             this.tabPage1.SuspendLayout();
             this.materialCard5.SuspendLayout();
             this.materialCard6.SuspendLayout();
@@ -140,12 +139,10 @@
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tripGridView)).BeginInit();
             this.gunaShadowPanel1.SuspendLayout();
-=======
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.categoryDataGridView)).BeginInit();
             this.tabPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_CarList)).BeginInit();
->>>>>>> 283ef7b0c65ed5168e4be75ba5d623778ea2f702
             this.SuspendLayout();
             // 
             // materialTabControl1
@@ -168,11 +165,8 @@
             this.materialTabControl1.SelectedIndex = 0;
             this.materialTabControl1.Size = new System.Drawing.Size(1894, 733);
             this.materialTabControl1.TabIndex = 0;
-<<<<<<< HEAD
           
-=======
             this.materialTabControl1.SelectedIndexChanged += new System.EventHandler(this.tabPage5_Click);
->>>>>>> 283ef7b0c65ed5168e4be75ba5d623778ea2f702
             // 
             // tabPage1
             // 
@@ -1485,8 +1479,6 @@
             this.tabPage5.Text = "Manage Car";
             this.tabPage5.UseVisualStyleBackColor = true;
             this.tabPage5.Click += new System.EventHandler(this.tabPage5_Click);
-<<<<<<< HEAD
-=======
             // 
             // dataGridView_CarList
             // 
@@ -1539,7 +1531,6 @@
             this.label1.Size = new System.Drawing.Size(192, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Availabe Car List";
->>>>>>> 283ef7b0c65ed5168e4be75ba5d623778ea2f702
             // 
             // tabPage6
             // 
@@ -1603,7 +1594,6 @@
             this.Text = "Excursion Car Rental Service";
             this.Load += new System.EventHandler(this.Dashboard_Load);
             this.materialTabControl1.ResumeLayout(false);
-<<<<<<< HEAD
             this.tabPage1.ResumeLayout(false);
             this.materialCard5.ResumeLayout(false);
             this.materialCard5.PerformLayout();
@@ -1625,18 +1615,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.tripGridView)).EndInit();
             this.gunaShadowPanel1.ResumeLayout(false);
             this.gunaShadowPanel1.PerformLayout();
-=======
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.categoryDataGridView)).EndInit();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_CarList)).EndInit();
->>>>>>> 283ef7b0c65ed5168e4be75ba5d623778ea2f702
             this.ResumeLayout(false);
 
         }
-
+*/
         #endregion
 
         private MaterialSkin.Controls.MaterialTabControl materialTabControl1;
@@ -1649,7 +1637,6 @@
         private System.Windows.Forms.TabPage tabPage6;
         private System.Windows.Forms.TabPage tabPage7;
         private System.Windows.Forms.TabPage tabPage8;
-<<<<<<< HEAD
         private MaterialSkin.Controls.MaterialCard materialCard1;
         private MaterialSkin.Controls.MaterialLabel label1;
         private MaterialSkin.Controls.MaterialLabel revenueForDashboard;
@@ -1719,21 +1706,19 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private MaterialSkin.Controls.MaterialTextBox txt_id_trip;
         private Guna.UI.WinForms.GunaAdvenceButton cancelTripUpdateBtn;
-=======
-        private System.Windows.Forms.Label label1;
+       // private System.Windows.Forms.Label label1;
         private MaterialSkin.Controls.MaterialButton materialButton1;
         private System.Windows.Forms.DataGridView dataGridView_CarList;
         private System.Windows.Forms.DataGridViewTextBoxColumn noColumn;
         private System.Windows.Forms.DataGridView categoryDataGridView;
-        private System.Windows.Forms.Label label2;
+       // private System.Windows.Forms.Label label2;
         private MaterialSkin.Controls.MaterialMaskedTextBox carBrandTextBox;
-        private System.Windows.Forms.Label label3;
+      //  private System.Windows.Forms.Label label3;
         private MaterialSkin.Controls.MaterialMaskedTextBox carNumberTextBox;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
->>>>>>> 283ef7b0c65ed5168e4be75ba5d623778ea2f702
     }
 }
 

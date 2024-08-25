@@ -99,3 +99,5 @@ D:\Excursion-Car-Rental\obj\Debug\Excursion Car Rental.exe
 D:\Excursion-Car-Rental\obj\Debug\Excursion Car Rental.pdb
 D:\Excursion-Car-Rental\obj\Debug\Excursion_Car_Rental.AddCarForm.resources
 D:\Excursion-Car-Rental\obj\Debug\Excursion_Car_Rental.EditCarInfo.resources
+C:\C # Project\Excursion Car Rental\obj\Debug\Excursion_Car_Rental.AddCarForm.resources
+C:\C # Project\Excursion Car Rental\obj\Debug\Excursion_Car_Rental.EditCarInfo.resources

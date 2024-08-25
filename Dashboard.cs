@@ -24,7 +24,7 @@ namespace Excursion_Car_Rental
         MySqlCommand cmd;
         GateService gateService;
         TripService tripService;
-{
+
         public Dashboard()
         {
             InitializeComponent();
@@ -32,11 +32,11 @@ namespace Excursion_Car_Rental
             con = new MySqlConnection(dbConnection.connectionString);
 
             gateService = new GateService();
-            tripService=new TripService();
+            tripService = new TripService();
 
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
-            materialSkinManager.EnforceBackcolorOnAllComponents = true; 
+            materialSkinManager.EnforceBackcolorOnAllComponents = true;
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
             materialSkinManager.ColorScheme = new ColorScheme(Primary.Orange900, Primary.Orange900, Primary.Orange900, Accent.DeepOrange400, TextShade.BLACK);
 
@@ -46,14 +46,14 @@ namespace Excursion_Car_Rental
 
         private void Dashboard_Load(object sender, EventArgs e)
         {
-            
+
 
             this.WindowState = FormWindowState.Maximized; // defaulat maximize
 
             Gate gate = gateService.loadGateData(); // getting gate data
             reloadGateData(gate); // adding data to form
 
- 
+
             /*Trip Title Customize Start*/
             labelForTripForm.ForeColor = Color.Red;
             labelForTripForm.Font = new Font("Arial", 24, FontStyle.Bold);
@@ -66,7 +66,7 @@ namespace Excursion_Car_Rental
 
 
         // update gate information
- 
+
 
         private void reloadGateData(Gate gate)
         {
@@ -111,7 +111,7 @@ namespace Excursion_Car_Rental
 
         private void createTripBtn_Click(object sender, EventArgs e)
         {
-            if (txt_source_trip.Text == "" || txt_destination_trip.Text == "" )
+            if (txt_source_trip.Text == "" || txt_destination_trip.Text == "")
             {
                 destinationError.Text = "Fill the above field";
                 destinationError.ForeColor = Color.Red;
@@ -135,17 +135,17 @@ namespace Excursion_Car_Rental
                     loadTripData();
                 }
             }
-            
+
 
         }
-        
+
         private void loadTripData()
         {
             tripGridView.Rows.Clear();
-            List<Trip> tripList =tripService.trips();
+            List<Trip> tripList = tripService.trips();
             foreach (var trip in tripList)
             {
-                tripGridView.Rows.Add(tripGridView.Rows.Count + 1, trip.Id,trip.Source,trip.Destination,trip.Description,trip.Created_at);
+                tripGridView.Rows.Add(tripGridView.Rows.Count + 1, trip.Id, trip.Source, trip.Destination, trip.Description, trip.Created_at);
             }
         }
 
@@ -153,7 +153,7 @@ namespace Excursion_Car_Rental
         {
             labelForTripForm.Text = "Update Trip";
             labelForTripForm.ForeColor = Color.Red;
-            labelForTripForm.Font=new Font("Arial",24,FontStyle.Bold);
+            labelForTripForm.Font = new Font("Arial", 24, FontStyle.Bold);
             createTripBtn.Visible = false;
             updateTripBtn.Visible = true;
             deleteTripBtn.Visible = true;
@@ -201,11 +201,11 @@ namespace Excursion_Car_Rental
 
         private void deleteTripBtn_Click(object sender, EventArgs e)
         {
-            DialogResult result=MessageBox.Show("Are you sure you want to delete", "Warning Message", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning);
+            DialogResult result = MessageBox.Show("Are you sure you want to delete", "Warning Message", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning);
             if (result == DialogResult.Yes)
             {
-                int outputResult=tripService.deleteTrip(Int32.Parse(txt_id_trip.Text));
-                if (outputResult>0)
+                int outputResult = tripService.deleteTrip(Int32.Parse(txt_id_trip.Text));
+                if (outputResult > 0)
                 {
                     MessageBox.Show("Successfully Deleted ", "Success Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
@@ -216,7 +216,7 @@ namespace Excursion_Car_Rental
                     MessageBox.Show("Error Deleting ", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-            else if(result == DialogResult.No){
+            else if (result == DialogResult.No) {
                 doTaskForCreateForm();
             }
         }
@@ -252,7 +252,7 @@ namespace Excursion_Car_Rental
         private void txt_search_trip_TextChanged(object sender, EventArgs e)
         {
             tripGridView.Rows.Clear();
-            
+
             List<Trip> tripList = tripService.searchTrip(txt_search_trip.Text);
             foreach (var trip in tripList)
             {
@@ -270,13 +270,13 @@ namespace Excursion_Car_Rental
             MessageBox.Show("Hello Car");
         }
 
-        private void materialTabControl1_TabIndexChanged(object sender, EventArgs e)
-        {
-            MessageBox.Show("CHanged");
-            materialSkinManager.ColorScheme = new ColorScheme(Primary.Orange900, Primary.Orange900, Primary.Orange900, Accent.DeepOrange400, TextShade.WHITE);
-        }
+        /*        private void materialTabControl1_TabIndexChanged(object sender, EventArgs e)
+                {
+                    MessageBox.Show("CHanged");
+                    materialSkinManager.ColorScheme = new ColorScheme(Primary.Orange900, Primary.Orange900, Primary.Orange900, Accent.DeepOrange400, TextShade.WHITE);
+                }*/
         DBConnection conn = new DBConnection();
-        private void tabPage5_Click(object sender, EventArgs e)
+        private void utabPage5_Click(object sender, EventArgs e)
         {
             // retrieve type column from categories table by Table INNER JOIN
             string query = @"
@@ -325,8 +325,8 @@ namespace Excursion_Car_Rental
             {
                 MessageBox.Show(ex.Message);
             }
-            finally 
-            { 
+            finally
+            {
                 myCon.Close();
             }
         }
@@ -360,7 +360,7 @@ namespace Excursion_Car_Rental
         }
         private void dataGridView_CarList_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if(e.RowIndex >= 0 && e.ColumnIndex >= 0)
+            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
             {
                 if (dataGridView_CarList.Columns[e.ColumnIndex].Name == "editColumn")
                 {
@@ -374,14 +374,14 @@ namespace Excursion_Car_Rental
                     string driverPhNo = dataGridView_CarList.Rows[e.RowIndex].Cells["driverPhNo"].Value.ToString();
                     string driverAddress = dataGridView_CarList.Rows[e.RowIndex].Cells["driverAddress"].Value.ToString();
 
-                    EditCarInfo editCarInfo = new EditCarInfo(carId,category_id, carNumber, carBrand,noOfSeat,driverName,driverLincense,driverPhNo,driverAddress);
+                    EditCarInfo editCarInfo = new EditCarInfo(carId, category_id, carNumber, carBrand, noOfSeat, driverName, driverLincense, driverPhNo, driverAddress);
                     DialogResult result = editCarInfo.ShowDialog();
                     LoadCarData();
-                }else if (dataGridView_CarList.Columns[e.ColumnIndex].Name == "deleteColumn")
+                } else if (dataGridView_CarList.Columns[e.ColumnIndex].Name == "deleteColumn")
                 {
                     int carId = Convert.ToInt32(dataGridView_CarList.Rows[e.RowIndex].Cells["carId"].Value);
-                    DialogResult result = MessageBox.Show("Are you sure you want to delete this record?","Delete confirmation",MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
-                    if(result == DialogResult.Yes)
+                    DialogResult result = MessageBox.Show("Are you sure you want to delete this record?", "Delete confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                    if (result == DialogResult.Yes)
                     {
                         deleteCar(carId);
                         LoadCarData();
@@ -400,9 +400,9 @@ namespace Excursion_Car_Rental
             {
                 myCon.Open();
                 command.ExecuteNonQuery();
-                MessageBox.Show("Record deleted successfully.","Success",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                MessageBox.Show("Record deleted successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
@@ -453,11 +453,11 @@ namespace Excursion_Car_Rental
             DialogResult result = addCarForm.ShowDialog();
             LoadCarData();
         }
-        
+
         // insert No. column in dataGridView 
         private void dataGridView_CarList_RowPostPaint(object sender, DataGridViewRowPostPaintEventArgs e)
         {
-            this.dataGridView_CarList.Rows[e.RowIndex].Cells["noColumn"].Value = (e.RowIndex+1).ToString();
+            this.dataGridView_CarList.Rows[e.RowIndex].Cells["noColumn"].Value = (e.RowIndex + 1).ToString();
         }
 
         private void tabPage3_Click(object sender, EventArgs e)
@@ -487,9 +487,6 @@ namespace Excursion_Car_Rental
 
         }
 
-        private void Dashboard_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
+
