@@ -13,7 +13,6 @@ namespace Excursion_Car_Rental
         public string connectionString; 
         public DBConnection() {
             connectionString = "server=127.0.0.1;user=root;database=excursion_car_rentaldb;password= ";
- 
         }
     }
 
