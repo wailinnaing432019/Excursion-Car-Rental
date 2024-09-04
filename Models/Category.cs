@@ -6,15 +6,11 @@ using System.Threading.Tasks;
 
 namespace Excursion_Car_Rental.Models
 {
-    public class Trip
+    public class Category
     {
         public int Id { get; set; }
-        public string Source { get; set; }
-
-        public string Destination { get; set; }
-
+        public string Type { get; set; }
         public string Description { get; set; }
-        public int Price {  get; set; }
-        public string Created_at {  get; set; }
+        public string Created_at { get; set; }
     }
 }

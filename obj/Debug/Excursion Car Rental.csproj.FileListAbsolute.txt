@@ -101,3 +101,5 @@ D:\Excursion-Car-Rental\obj\Debug\Excursion_Car_Rental.AddCarForm.resources
 D:\Excursion-Car-Rental\obj\Debug\Excursion_Car_Rental.EditCarInfo.resources
 C:\C # Project\Excursion Car Rental\obj\Debug\Excursion_Car_Rental.AddCarForm.resources
 C:\C # Project\Excursion Car Rental\obj\Debug\Excursion_Car_Rental.EditCarInfo.resources
+C:\C # Project\Excursion Car Rental\obj\Debug\Excursion_Car_Rental.OrderForm.resources
+C:\C # Project\Excursion Car Rental\obj\Debug\Excursion_Car_Rental.OrderDetail.resources

@@ -33,6 +33,7 @@ namespace Excursion_Car_Rental.Services
                 t.Id = Int32.Parse(dr["id"].ToString());
                 t.Source = dr["source"].ToString();
                 t.Destination = dr["destination"].ToString();
+                t.Price = Int32.Parse(dr["price"].ToString());
                 t.Description=dr["description"].ToString();
                 t.Created_at = dr["created_at"].ToString();
                 result.Add(t);
@@ -45,13 +46,14 @@ namespace Excursion_Car_Rental.Services
         }
         public int saveTrip(Trip t)
         {
-            string query = "insert into trips(`source`, `destination`, `description`) values(@source,@destination,@description)";
+            string query = "insert into trips(`source`, `destination`,`price`, `description`) values(@source,@destination,@price,@description)";
             con.Open(); // start connection
 
             cmd=new MySqlCommand(query, con);
             cmd.Parameters.Clear();
             cmd.Parameters.AddWithValue("@source", t.Source);
             cmd.Parameters.AddWithValue("@destination",t.Destination);
+            cmd.Parameters.AddWithValue("@price", t.Price);
             cmd.Parameters.AddWithValue("@description", t.Description);
             int result=cmd.ExecuteNonQuery();
 
@@ -73,13 +75,14 @@ namespace Excursion_Car_Rental.Services
 
         internal int updateTrip(Trip trip)
         {
-            string query = "update  trips set `source`=@source, `destination`=@destination, `description`=@description where id="+trip.Id;
+            string query = "update  trips set `source`=@source, `destination`=@destination,`price`=@price, `description`=@description where id=" + trip.Id;
             con.Open(); // start connection
 
             cmd = new MySqlCommand(query, con);
             cmd.Parameters.Clear();
             cmd.Parameters.AddWithValue("@source", trip.Source);
             cmd.Parameters.AddWithValue("@destination", trip.Destination);
+            cmd.Parameters.AddWithValue("@price", trip.Price);
             cmd.Parameters.AddWithValue("@description", trip.Description);
             int result = cmd.ExecuteNonQuery();
 
@@ -90,7 +93,7 @@ namespace Excursion_Car_Rental.Services
         public List<Trip> searchTrip(string text)
         {
             
-            string query = "select * from trips where id like '"+ text+"%' or source like '"+text+"%' or destination like '"+text+"%' or description like '"+text+"%'";
+            string query = "select * from trips where id like '"+ text+"%' or source like '"+text+"%' or destination like '"+text+"%' or description like '"+text+ "%' or price like '"+text+"%'";
             con.Open();
             cmd = new MySqlCommand(query, con);
             MySqlDataReader dr = cmd.ExecuteReader();
@@ -101,6 +104,7 @@ namespace Excursion_Car_Rental.Services
                 t.Id = Int32.Parse(dr["id"].ToString());
                 t.Source = dr["source"].ToString();
                 t.Destination = dr["destination"].ToString();
+                t.Price = Int32.Parse(dr["price"].ToString());
                 t.Description = dr["description"].ToString();
                 t.Created_at = dr["created_at"].ToString();
                 result.Add(t);

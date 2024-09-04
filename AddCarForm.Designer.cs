@@ -46,15 +46,18 @@
             this.driverAddressTextBox = new MaterialSkin.Controls.MaterialMaskedTextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.carRankTextBox = new MaterialSkin.Controls.MaterialMaskedTextBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(187, 41);
+            this.label1.Location = new System.Drawing.Point(140, 33);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 25);
+            this.label1.Size = new System.Drawing.Size(73, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Category";
             // 
@@ -62,9 +65,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(163, 102);
+            this.label2.Location = new System.Drawing.Point(122, 83);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(115, 25);
+            this.label2.Size = new System.Drawing.Size(92, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Car number";
             // 
@@ -82,11 +86,12 @@
             this.categoryComboBox.FormattingEnabled = true;
             this.categoryComboBox.IntegralHeight = false;
             this.categoryComboBox.ItemHeight = 43;
-            this.categoryComboBox.Location = new System.Drawing.Point(319, 27);
+            this.categoryComboBox.Location = new System.Drawing.Point(239, 22);
+            this.categoryComboBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.categoryComboBox.MaxDropDownItems = 4;
             this.categoryComboBox.MouseState = MaterialSkin.MouseState.OUT;
             this.categoryComboBox.Name = "categoryComboBox";
-            this.categoryComboBox.Size = new System.Drawing.Size(121, 49);
+            this.categoryComboBox.Size = new System.Drawing.Size(92, 49);
             this.categoryComboBox.StartIndex = 0;
             this.categoryComboBox.TabIndex = 2;
             // 
@@ -104,7 +109,8 @@
             this.carNumberTextBox.HideSelection = true;
             this.carNumberTextBox.InsertKeyMode = System.Windows.Forms.InsertKeyMode.Default;
             this.carNumberTextBox.LeadingIcon = null;
-            this.carNumberTextBox.Location = new System.Drawing.Point(319, 93);
+            this.carNumberTextBox.Location = new System.Drawing.Point(239, 76);
+            this.carNumberTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.carNumberTextBox.Mask = "";
             this.carNumberTextBox.MaxLength = 32767;
             this.carNumberTextBox.MouseState = MaterialSkin.MouseState.OUT;
@@ -121,7 +127,7 @@
             this.carNumberTextBox.SelectionLength = 0;
             this.carNumberTextBox.SelectionStart = 0;
             this.carNumberTextBox.ShortcutsEnabled = true;
-            this.carNumberTextBox.Size = new System.Drawing.Size(250, 48);
+            this.carNumberTextBox.Size = new System.Drawing.Size(188, 48);
             this.carNumberTextBox.SkipLiterals = true;
             this.carNumberTextBox.TabIndex = 3;
             this.carNumberTextBox.TabStop = false;
@@ -135,9 +141,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(219, 177);
+            this.label3.Location = new System.Drawing.Point(164, 144);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 25);
+            this.label3.Size = new System.Drawing.Size(52, 20);
             this.label3.TabIndex = 4;
             this.label3.Text = "Brand";
             // 
@@ -155,7 +162,8 @@
             this.carBrandTextBox.HideSelection = true;
             this.carBrandTextBox.InsertKeyMode = System.Windows.Forms.InsertKeyMode.Default;
             this.carBrandTextBox.LeadingIcon = null;
-            this.carBrandTextBox.Location = new System.Drawing.Point(319, 165);
+            this.carBrandTextBox.Location = new System.Drawing.Point(239, 134);
+            this.carBrandTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.carBrandTextBox.Mask = "";
             this.carBrandTextBox.MaxLength = 32767;
             this.carBrandTextBox.MouseState = MaterialSkin.MouseState.OUT;
@@ -172,7 +180,7 @@
             this.carBrandTextBox.SelectionLength = 0;
             this.carBrandTextBox.SelectionStart = 0;
             this.carBrandTextBox.ShortcutsEnabled = true;
-            this.carBrandTextBox.Size = new System.Drawing.Size(250, 48);
+            this.carBrandTextBox.Size = new System.Drawing.Size(188, 48);
             this.carBrandTextBox.SkipLiterals = true;
             this.carBrandTextBox.TabIndex = 5;
             this.carBrandTextBox.TabStop = false;
@@ -196,7 +204,8 @@
             this.noOfSeatsTextBox.HideSelection = true;
             this.noOfSeatsTextBox.InsertKeyMode = System.Windows.Forms.InsertKeyMode.Default;
             this.noOfSeatsTextBox.LeadingIcon = null;
-            this.noOfSeatsTextBox.Location = new System.Drawing.Point(319, 239);
+            this.noOfSeatsTextBox.Location = new System.Drawing.Point(239, 194);
+            this.noOfSeatsTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.noOfSeatsTextBox.Mask = "";
             this.noOfSeatsTextBox.MaxLength = 32767;
             this.noOfSeatsTextBox.MouseState = MaterialSkin.MouseState.OUT;
@@ -213,7 +222,7 @@
             this.noOfSeatsTextBox.SelectionLength = 0;
             this.noOfSeatsTextBox.SelectionStart = 0;
             this.noOfSeatsTextBox.ShortcutsEnabled = true;
-            this.noOfSeatsTextBox.Size = new System.Drawing.Size(250, 48);
+            this.noOfSeatsTextBox.Size = new System.Drawing.Size(188, 48);
             this.noOfSeatsTextBox.SkipLiterals = true;
             this.noOfSeatsTextBox.TabIndex = 6;
             this.noOfSeatsTextBox.TabStop = false;
@@ -227,9 +236,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(130, 252);
+            this.label4.Location = new System.Drawing.Point(98, 205);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(154, 25);
+            this.label4.Size = new System.Drawing.Size(126, 20);
             this.label4.TabIndex = 7;
             this.label4.Text = "Number of seats";
             // 
@@ -237,9 +247,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(160, 327);
+            this.label5.Location = new System.Drawing.Point(120, 266);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(117, 25);
+            this.label5.Size = new System.Drawing.Size(94, 20);
             this.label5.TabIndex = 8;
             this.label5.Text = "Driver name";
             // 
@@ -257,7 +268,8 @@
             this.driverNameTextBox.HideSelection = true;
             this.driverNameTextBox.InsertKeyMode = System.Windows.Forms.InsertKeyMode.Default;
             this.driverNameTextBox.LeadingIcon = null;
-            this.driverNameTextBox.Location = new System.Drawing.Point(319, 317);
+            this.driverNameTextBox.Location = new System.Drawing.Point(239, 258);
+            this.driverNameTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.driverNameTextBox.Mask = "";
             this.driverNameTextBox.MaxLength = 32767;
             this.driverNameTextBox.MouseState = MaterialSkin.MouseState.OUT;
@@ -274,7 +286,7 @@
             this.driverNameTextBox.SelectionLength = 0;
             this.driverNameTextBox.SelectionStart = 0;
             this.driverNameTextBox.ShortcutsEnabled = true;
-            this.driverNameTextBox.Size = new System.Drawing.Size(250, 48);
+            this.driverNameTextBox.Size = new System.Drawing.Size(188, 48);
             this.driverNameTextBox.SkipLiterals = true;
             this.driverNameTextBox.TabIndex = 9;
             this.driverNameTextBox.TabStop = false;
@@ -288,9 +300,10 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(148, 404);
+            this.label6.Location = new System.Drawing.Point(111, 328);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(129, 25);
+            this.label6.Size = new System.Drawing.Size(103, 20);
             this.label6.TabIndex = 10;
             this.label6.Text = "Driver license";
             // 
@@ -308,7 +321,8 @@
             this.driverLicenseTextBox.HideSelection = true;
             this.driverLicenseTextBox.InsertKeyMode = System.Windows.Forms.InsertKeyMode.Default;
             this.driverLicenseTextBox.LeadingIcon = null;
-            this.driverLicenseTextBox.Location = new System.Drawing.Point(319, 396);
+            this.driverLicenseTextBox.Location = new System.Drawing.Point(239, 322);
+            this.driverLicenseTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.driverLicenseTextBox.Mask = "";
             this.driverLicenseTextBox.MaxLength = 32767;
             this.driverLicenseTextBox.MouseState = MaterialSkin.MouseState.OUT;
@@ -325,7 +339,7 @@
             this.driverLicenseTextBox.SelectionLength = 0;
             this.driverLicenseTextBox.SelectionStart = 0;
             this.driverLicenseTextBox.ShortcutsEnabled = true;
-            this.driverLicenseTextBox.Size = new System.Drawing.Size(250, 48);
+            this.driverLicenseTextBox.Size = new System.Drawing.Size(188, 48);
             this.driverLicenseTextBox.SkipLiterals = true;
             this.driverLicenseTextBox.TabIndex = 11;
             this.driverLicenseTextBox.TabStop = false;
@@ -339,9 +353,10 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(90, 486);
+            this.label7.Location = new System.Drawing.Point(68, 395);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(194, 25);
+            this.label7.Size = new System.Drawing.Size(157, 20);
             this.label7.TabIndex = 12;
             this.label7.Text = "Driver phone number";
             // 
@@ -359,7 +374,8 @@
             this.driverPhNoTextBox.HideSelection = true;
             this.driverPhNoTextBox.InsertKeyMode = System.Windows.Forms.InsertKeyMode.Default;
             this.driverPhNoTextBox.LeadingIcon = null;
-            this.driverPhNoTextBox.Location = new System.Drawing.Point(319, 474);
+            this.driverPhNoTextBox.Location = new System.Drawing.Point(239, 385);
+            this.driverPhNoTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.driverPhNoTextBox.Mask = "";
             this.driverPhNoTextBox.MaxLength = 32767;
             this.driverPhNoTextBox.MouseState = MaterialSkin.MouseState.OUT;
@@ -376,7 +392,7 @@
             this.driverPhNoTextBox.SelectionLength = 0;
             this.driverPhNoTextBox.SelectionStart = 0;
             this.driverPhNoTextBox.ShortcutsEnabled = true;
-            this.driverPhNoTextBox.Size = new System.Drawing.Size(250, 48);
+            this.driverPhNoTextBox.Size = new System.Drawing.Size(188, 48);
             this.driverPhNoTextBox.SkipLiterals = true;
             this.driverPhNoTextBox.TabIndex = 13;
             this.driverPhNoTextBox.TabStop = false;
@@ -390,9 +406,10 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(139, 567);
+            this.label8.Location = new System.Drawing.Point(104, 461);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(138, 25);
+            this.label8.Size = new System.Drawing.Size(111, 20);
             this.label8.TabIndex = 14;
             this.label8.Text = "Driver address";
             // 
@@ -410,7 +427,8 @@
             this.driverAddressTextBox.HideSelection = true;
             this.driverAddressTextBox.InsertKeyMode = System.Windows.Forms.InsertKeyMode.Default;
             this.driverAddressTextBox.LeadingIcon = null;
-            this.driverAddressTextBox.Location = new System.Drawing.Point(319, 553);
+            this.driverAddressTextBox.Location = new System.Drawing.Point(239, 449);
+            this.driverAddressTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.driverAddressTextBox.Mask = "";
             this.driverAddressTextBox.MaxLength = 32767;
             this.driverAddressTextBox.MouseState = MaterialSkin.MouseState.OUT;
@@ -427,7 +445,7 @@
             this.driverAddressTextBox.SelectionLength = 0;
             this.driverAddressTextBox.SelectionStart = 0;
             this.driverAddressTextBox.ShortcutsEnabled = true;
-            this.driverAddressTextBox.Size = new System.Drawing.Size(250, 48);
+            this.driverAddressTextBox.Size = new System.Drawing.Size(188, 48);
             this.driverAddressTextBox.SkipLiterals = true;
             this.driverAddressTextBox.TabIndex = 15;
             this.driverAddressTextBox.TabStop = false;
@@ -443,9 +461,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(205, 653);
+            this.button1.Location = new System.Drawing.Point(155, 591);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(131, 44);
+            this.button1.Size = new System.Drawing.Size(98, 36);
             this.button1.TabIndex = 16;
             this.button1.Text = "Close";
             this.button1.UseVisualStyleBackColor = false;
@@ -457,19 +476,75 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(438, 653);
+            this.button2.Location = new System.Drawing.Point(329, 591);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(131, 44);
+            this.button2.Size = new System.Drawing.Size(98, 36);
             this.button2.TabIndex = 17;
             this.button2.Text = "Save";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.saveBtn_Click);
             // 
+            // carRankTextBox
+            // 
+            this.carRankTextBox.AllowPromptAsInput = true;
+            this.carRankTextBox.AnimateReadOnly = false;
+            this.carRankTextBox.AsciiOnly = false;
+            this.carRankTextBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.carRankTextBox.BeepOnError = false;
+            this.carRankTextBox.CutCopyMaskFormat = System.Windows.Forms.MaskFormat.IncludeLiterals;
+            this.carRankTextBox.Depth = 0;
+            this.carRankTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.carRankTextBox.HidePromptOnLeave = false;
+            this.carRankTextBox.HideSelection = true;
+            this.carRankTextBox.InsertKeyMode = System.Windows.Forms.InsertKeyMode.Default;
+            this.carRankTextBox.LeadingIcon = null;
+            this.carRankTextBox.Location = new System.Drawing.Point(239, 510);
+            this.carRankTextBox.Margin = new System.Windows.Forms.Padding(2);
+            this.carRankTextBox.Mask = "";
+            this.carRankTextBox.MaxLength = 32767;
+            this.carRankTextBox.MouseState = MaterialSkin.MouseState.OUT;
+            this.carRankTextBox.Name = "carRankTextBox";
+            this.carRankTextBox.PasswordChar = '\0';
+            this.carRankTextBox.PrefixSuffixText = null;
+            this.carRankTextBox.PromptChar = '_';
+            this.carRankTextBox.ReadOnly = false;
+            this.carRankTextBox.RejectInputOnFirstFailure = false;
+            this.carRankTextBox.ResetOnPrompt = true;
+            this.carRankTextBox.ResetOnSpace = true;
+            this.carRankTextBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.carRankTextBox.SelectedText = "";
+            this.carRankTextBox.SelectionLength = 0;
+            this.carRankTextBox.SelectionStart = 0;
+            this.carRankTextBox.ShortcutsEnabled = true;
+            this.carRankTextBox.Size = new System.Drawing.Size(188, 48);
+            this.carRankTextBox.SkipLiterals = true;
+            this.carRankTextBox.TabIndex = 18;
+            this.carRankTextBox.TabStop = false;
+            this.carRankTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.carRankTextBox.TextMaskFormat = System.Windows.Forms.MaskFormat.IncludeLiterals;
+            this.carRankTextBox.TrailingIcon = null;
+            this.carRankTextBox.UseSystemPasswordChar = false;
+            this.carRankTextBox.ValidatingType = null;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(102, 520);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(47, 20);
+            this.label9.TabIndex = 19;
+            this.label9.Text = "Rank";
+            // 
             // AddCarForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(727, 749);
+            this.ClientSize = new System.Drawing.Size(545, 670);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.carRankTextBox);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.driverAddressTextBox);
@@ -489,6 +564,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "AddCarForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddCarForm";
@@ -518,5 +594,7 @@
         private MaterialSkin.Controls.MaterialMaskedTextBox driverAddressTextBox;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private MaterialSkin.Controls.MaterialMaskedTextBox carRankTextBox;
+        private System.Windows.Forms.Label label9;
     }
 }

@@ -72,18 +72,19 @@ namespace Excursion_Car_Rental
             string driverLicense = driverLicenseTextBox.Text;
             string driverPhNo = driverPhNoTextBox.Text;
             string driverAddress = driverAddressTextBox.Text;
+            string carRank = carRankTextBox.Text;
 
             // insert data into database
-            InsertCarInfo(categoryId,carNumber, carBrand, noOfSeats, driverName, driverLicense, driverPhNo, driverAddress);
+            InsertCarInfo(categoryId,carNumber, carBrand, noOfSeats, driverName, driverLicense, driverPhNo, driverAddress, carRank);
             
             // after insert car informations and then adding form close
             this.Close();
         }
 
         // adding car info to database function used in saveBtn_Click
-        private void InsertCarInfo(int categoryId,string carNumber,string carBrand,int noOfseats, string driverName, string driverLicense, string driverPhNo, string driverAddress)
+        private void InsertCarInfo(int categoryId,string carNumber,string carBrand,int noOfseats, string driverName, string driverLicense, string driverPhNo, string driverAddress, string carRank)
         {
-            string query = "INSERT INTO manage_cars (category_id,car_no,brand_name,no_of_seat,driver_name,driver_lincense,driver_ph_no,driver_address) VALUES (@categoryId,@carNumber,@carBrand,@noOfSeats,@driverName,@driverLicense,@driverPhNo,@driverAddress)";
+            string query = "INSERT INTO manage_cars (category_id,car_no,brand_name,no_of_seat,driver_name,driver_lincense,driver_ph_no,driver_address,rank) VALUES (@categoryId,@carNumber,@carBrand,@noOfSeats,@driverName,@driverLicense,@driverPhNo,@driverAddress,@carRank)";
             MySqlConnection myCon = new MySqlConnection(conn.connectionString);
             MySqlCommand command = new MySqlCommand(query, myCon);
             command.Parameters.AddWithValue("@categoryId",categoryId);
@@ -94,6 +95,7 @@ namespace Excursion_Car_Rental
             command.Parameters.AddWithValue("@driverLicense", driverLicense);
             command.Parameters.AddWithValue("@driverPhNo", driverPhNo);
             command.Parameters.AddWithValue("@driverAddress", driverAddress);
+            command.Parameters.AddWithValue("@carRank", carRank);
 
             try
             {

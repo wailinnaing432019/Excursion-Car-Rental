@@ -1,4 +1,5 @@
-﻿using MySql.Data.MySqlClient;
+﻿using Excursion_Car_Rental.Models;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -27,18 +28,42 @@ namespace Excursion_Car_Rental
                 MySqlCommand command = new MySqlCommand(query, myCon);
                 MySqlDataReader reader = command.ExecuteReader();
 
-                while (reader.Read()) 
+                // Clear previous items in case the ComboBox is reused
+                editCategoryComboBox.Items.Clear();
+
+                int selectedIndex = -1;
+
+                while (reader.Read())
                 {
                     int id = reader.GetInt32("id");
                     string type = reader.GetString("type");
+
+                    // Add item to ComboBox
                     editCategoryComboBox.Items.Add($"{id} - {type}");
+
+                    // If this item's id matches category_id, remember its index
+                    if (id == category_id)
+                    {
+                        selectedIndex = editCategoryComboBox.Items.Count - 1;  // Remember the index
+                    }
                 }
 
-                if (editCategoryComboBox.Items.Count > 0)
+                // Set the selected index if a match was found
+                if (selectedIndex != -1)
                 {
-                    editCategoryComboBox.SelectedIndex = category_id-1;
+                    editCategoryComboBox.SelectedIndex = selectedIndex;
                 }
+                else
+                {
+                    // Optionally handle the case where no match was found, e.g., select the first item
+                    if (editCategoryComboBox.Items.Count > 0)
+                    {
+                        editCategoryComboBox.SelectedIndex = 0;
+                    }
+                }
+
                 reader.Close();
+                myCon.Close();
             }
             catch (Exception ex) 
             {
